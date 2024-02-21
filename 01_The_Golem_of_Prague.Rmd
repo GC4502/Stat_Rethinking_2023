@@ -52,5 +52,38 @@ Bayesian OWl
 3. Use 1 & 2 to build statistical model(s)
 4. Simulate from 2 to validate 3 yields 1
 5. Analyze real data
+
+
 ## Book Notes
+
+Deductive Falsification is impossible:
+1. Hypotheses are not models
+2. Measurement matters
+
+Bayesian data analysis takes a question in the form of a model and uses logic to produce an answer in the form of probability distributions
+
+Frequentist approach (special case) - all probabilities are defined by connection to the frequencies of events in very large samples
+
+Bayesian treats randomness as a property of information, not of world
+
+Bayesian methods are computationally expensive and alternatives or approximations will always remain important
+
+Good predictions =/= good fit of existing data
+Information Criteria and Crossvalidation help recognize overfitting
+
+Multilevel models (mixed effect models) when parameters can be placeholders for missing models
+
+Multilevel models use partial pooling to produce better estimates for all units
+
+Partial pooling is appropriate for adjusting estimates for repeat sampling and imbalance, study variation, and to avoid averaging
+
+Models that are casually incorrect can make better predictions than those that are casually correct -> Identification problem
+
+Causal inference requires a causal model that is separate from the statistical model
+
+
+
+
+
+
 
