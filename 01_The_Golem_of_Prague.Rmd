@@ -1,0 +1,56 @@
+---
+title: "01-The Golem of Prague"
+output: html_document
+date: "2024-02-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Video Notes
+
+For statistical models to produce scientific insight, they require additional scientific (causal) models
+
+The causes of the data cannot be extracted from the data alone
+
+Causal Prediction - knowing a cause means being able to predict the consequences of an intervention
+
+Causal imputation - knowing a cause means being able to construct unobserved counter factual outcomes
+
+Causal Diagrams - Directed Acyclic Graphs (DAGs)
+
+Usually need different models for different queries
+
+DAGs are not enough, need generative models and strategy to derive estimate and uncertainty
+
+Bayesian OWl
+
+1. Theoretical estimand
+2. Scientific (causal) model(s)
+3. Use 1 & 2 to build statistical model(s)
+4. Simulate from 2 to validate 3 yields 1
+5. Analyze real data
+## Book Notes
+
